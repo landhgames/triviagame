@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CurrentPlayerTableViewCell" rowHeight="179" id="KGk-i7-Jjw" customClass="CurrentPlayerTableViewCell" customModule="TriviaGame" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="476" height="179"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="476" height="178.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current Player" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bmk-7J-bx7">
+                        <rect key="frame" x="26" y="44.5" width="436" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Player: 100 pts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5gk-Bm-AF2">
+                        <rect key="frame" x="26" y="113" width="151" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Second Player: 200 pts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gp3-v8-oYr">
+                        <rect key="frame" x="273" y="113" width="178" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="5gk-Bm-AF2" firstAttribute="firstBaseline" secondItem="gp3-v8-oYr" secondAttribute="firstBaseline" id="5bk-nL-J7n"/>
+                    <constraint firstItem="bmk-7J-bx7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="44.5" id="91w-nW-Pft"/>
+                    <constraint firstItem="bmk-7J-bx7" firstAttribute="leading" secondItem="5gk-Bm-AF2" secondAttribute="leading" id="A0h-HY-PhX"/>
+                    <constraint firstItem="gp3-v8-oYr" firstAttribute="bottom" secondItem="5gk-Bm-AF2" secondAttribute="bottom" id="HgO-ZV-InB"/>
+                    <constraint firstItem="5gk-Bm-AF2" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="S98-DS-WVv"/>
+                    <constraint firstAttribute="bottom" secondItem="gp3-v8-oYr" secondAttribute="bottom" constant="44.5" id="e7m-Ll-Wma"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="gp3-v8-oYr" secondAttribute="trailing" constant="5" id="efR-bh-S3e"/>
+                    <constraint firstAttribute="trailing" secondItem="bmk-7J-bx7" secondAttribute="trailing" constant="14" id="mTm-be-9FW"/>
+                    <constraint firstItem="bmk-7J-bx7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="6" id="onQ-hi-boK"/>
+                    <constraint firstItem="5gk-Bm-AF2" firstAttribute="baseline" secondItem="gp3-v8-oYr" secondAttribute="baseline" id="v5p-jF-odC"/>
+                    <constraint firstItem="5gk-Bm-AF2" firstAttribute="top" secondItem="bmk-7J-bx7" secondAttribute="bottom" constant="48" id="w4g-I1-diX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="currentPlayer" destination="bmk-7J-bx7" id="izz-F5-qWC"/>
+                <outlet property="firstPlayerScore" destination="5gk-Bm-AF2" id="w32-VK-nq5"/>
+                <outlet property="secondPlayerScore" destination="gp3-v8-oYr" id="oCC-JU-sGB"/>
+            </connections>
+            <point key="canvasLocation" x="250.72463768115944" y="145.64732142857142"/>
+        </tableViewCell>
+    </objects>
+</document>
