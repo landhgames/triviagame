@@ -14,6 +14,11 @@ This application has several UnitTesting that guarantee it's coherence. The perk
 
 ![alt text](http://www.landhsoft.com/tests.png "Unit Tests")
 
+## Compilation instructions
+
+We decided not to use any 3rd party frameworks for this project, so in order to run it you just have to:
+
+- Open the .xcode project and hit Run
 
 ## App UI Render
 
