@@ -23,7 +23,7 @@ public enum attributes: String {
     
     case success =  "Success"
     case error =    "Error"
-    case alert =    "Alert"
+    case alert =    "Pst!"
     case ok =       "Ok"
     
 }

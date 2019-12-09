@@ -12,7 +12,6 @@ class MainViewController: UIViewController {
    
     @IBOutlet weak var firstPlayerName: UITextField!
     @IBOutlet weak var secondPlayerName: UITextField!
-    @IBOutlet weak var SiguienteButon: UIButton!
     
     var firstPlayer : Player?
     var secondPlayer : Player?
