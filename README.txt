@@ -1,4 +1,4 @@
-## Architecture decisions
+##Architecture decisions
 
 We chose MVP architecture for this project because we think that it would help as create clean component that could be easily tested, which ended app beign the case. The Presenter for the Game componenet has several Unit Test that guarantee it's coherence.
 
