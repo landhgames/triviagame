@@ -25,4 +25,7 @@ We decided not to use any 3rd party frameworks for this project, so in order to 
 ## App UI Render
 
 This is how the apps renders:
-![alt text](http://www.landhsoft.com/app_ui2.png "Unit Tests")
+
+<p align="center">
+  <img width="200" height="500" src="http://www.landhsoft.com/app_ui2.png">
+</p>
