@@ -6,7 +6,7 @@ For the main ViewController we though of implementing a MVVM architecture. This 
 
 ## Decisions for the future
 
-- We used 3 modular cels (CurrentPlayerTableViewCell, QuestionTableViewCell and AnswerTableViewCell) because we think that is most probable that this game will have a skin added in the near future, and having this cells around will make that implementation easier.
+- We used 3 modular cells (CurrentPlayerTableViewCell, QuestionTableViewCell and AnswerTableViewCell) because we think that is most probable that this game will have a skin added in the near future, and having this cells around will make that implementation easier.
 
 ## Unit Test
 
