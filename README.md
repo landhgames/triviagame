@@ -12,10 +12,10 @@ For the main ViewController we though of implementing a MVVM architecture. This 
 
 This application has several UnitTesting that guarantee it's coherence. The perks of implementing this kind of test are that regressions are more unlikelike to appear as the models grows to support new features or changes, making the software more difficult to `brake.` On the other hand, out philosophy is making ViewControllers as dumb as possible, in order to make their testing trivial through manual means, and putting the more logic and complex stuff inside Presenters that can be throughly tested.
 
-![alt text](https://www.landhsoft.com/tests.png "Unit Tests")
+![alt text](http://www.landhsoft.com/tests.png "Unit Tests")
 
 
 ## App UI Render
 
 This is how the apps renders:
-![alt text](https://www.landhsoft.com/app_ui.png "Unit Tests")
+![alt text](http://www.landhsoft.com/app_ui.png "Unit Tests")
